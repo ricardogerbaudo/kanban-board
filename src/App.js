@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from 'react';
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanban Board</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900">
-</head>
-
-<body>
-    <div class="boards">
+function App() {
+  return (
+<div class="boards">
         <div class="board">
             <h3>To do</h3>
             <div class="dropzone">
@@ -40,8 +31,7 @@
             </div>
         </div>
     </div>
+  );
+}
 
-    <script src="script.js" defer></script>
-</body>
-
-</html>
+export default App;
